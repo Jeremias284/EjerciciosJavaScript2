@@ -105,3 +105,12 @@ function ConvertirMayuscula(texto){
 
 }
 console.log(ConvertirMayuscula('psicologo'))
+
+/*Ejercicio 6.- Crear una función que reciba como parámetro un string y que devuelva ese mismo
+string con la primera letra DE CADA PALABRA convertida a mayúscula. */
+function ConversionMayuscula(texto){
+    return texto.split(' ').map( i => i[0].toUpperCase() + i.slice(1)).join(' ')
+
+}
+console.log(ConversionMayuscula('jere como andas'))
+
