@@ -90,3 +90,10 @@ var palabra = 'La Manzana es Verde';
 palabraNueva = palabra.substring(3,6);
 console.log(palabraNueva);
 
+/*d.- Obtener un array con las palabras que hay en el string, asumiendo que cada
+palabra termina cuando se encuentra el carácter espacio (método split) */
+var palabraNueva;
+var palabra = 'La Manzana es Verde';
+palabraNueva = palabra.split();
+console.log(palabraNueva);
+
