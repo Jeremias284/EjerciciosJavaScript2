@@ -28,3 +28,9 @@ for(var element of Arreglo)
     console.log(element);
 }
 
+/*Ejercicio 3.- Al Array del ejercicio anterior utilizarlo para */
+
+/*a.- Ordenar el array alfabéticamente y mostrar el resultado (método sort). */
+var Arreglo = [ "banana", "manzana", "pera" ,"anana"];
+console.log(Arreglo.sort());
+
