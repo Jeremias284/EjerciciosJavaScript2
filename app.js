@@ -63,3 +63,12 @@ while(i < Arreglo.length )
 console.log(Arreglo[i]);
 i++;
 } 
+
+/*f.- Recorrer el array utilizando el bucle for y mostrar cada uno de los valores
+convirtiéndolos a mayúsculas (método toUpperCase de la clase String) */
+var Arreglo = [ "banana", "manzana", "pera" ,"anana"];
+for(var element of Arreglo) 
+{
+    console.log(element.toUpperCase());
+}
+  
