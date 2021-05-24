@@ -114,3 +114,17 @@ function ConversionMayuscula(texto){
 }
 console.log(ConversionMayuscula('jere como andas'))
 
+/*Ejercicio 7.- Crear una función que reciba como parámetro un string y que devuelva la cantidad
+de vocales que posee. */
+function contarVocales(texto) {
+    var contadorVocales = 0;
+    var vocales =  ["a", "e" , "i", "o", "u", "A", "E", "I", "O", "U"];
+    for(var i = 0; i < texto.length; ++i){
+        if(vocales.indexOf(texto[i]) >= 0){
+            ++contadorVocales;
+        }     
+    }
+    return contadorVocales;
+
+}
+console.log(contarVocales('Hola'));
