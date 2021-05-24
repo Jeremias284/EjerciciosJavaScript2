@@ -97,3 +97,11 @@ var palabra = 'La Manzana es Verde';
 palabraNueva = palabra.split();
 console.log(palabraNueva);
 
+
+/*Ekercicio 5.- Crear una función que reciba como parámetro un string y que devuelva ese mismo
+string con la primera letra convertida a mayúscula */
+function ConvertirMayuscula(texto){
+    return texto.split(' ').map( i => i[0].toUpperCase() + i.slice(1)).join(' ')
+
+}
+console.log(ConvertirMayuscula('psicologo'))
