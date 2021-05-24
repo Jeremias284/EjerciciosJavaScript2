@@ -47,3 +47,8 @@ var Arreglo = [ "banana", "manzana", "pera" ,"anana"];
 Arreglo.shift();
 Arreglo.pop();
 console.log(Arreglo);
+
+/*d.- Invertir el orden de los elementos en el array (método reverse). */
+var Arreglo = [ "banana", "manzana", "pera" ,"anana"];
+Arreglo.reverse();
+console.log(Arreglo);
