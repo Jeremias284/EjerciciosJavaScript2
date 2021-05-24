@@ -34,3 +34,10 @@ for(var element of Arreglo)
 var Arreglo = [ "banana", "manzana", "pera" ,"anana"];
 console.log(Arreglo.sort());
 
+/*b.- Agregar un elemento al final y al principio del arreglo (métodos push y
+unshift) */
+var Arreglo = [ "banana", "manzana", "pera" ,"anana"];
+Arreglo.unshift('Inicio');
+Arreglo.push('Fin');
+console.log(Arreglo);
+
