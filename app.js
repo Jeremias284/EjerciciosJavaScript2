@@ -77,3 +77,9 @@ for(var element of Arreglo)
 /*a.- Convertirlo a minúscula y mostrar el resultado (método toLowerCase). */
 var Palabra = "La Manzana es Verde";
 console.log(Palabra.toLocaleLowerCase());
+
+/*b.- Obtener los últimos 4 caracteres del string (método substring).*/
+var palabraNueva;
+var palabra = 'La Manzana es Verde';
+palabraNueva = palabra.substring(0,5);
+console.log(palabraNueva);
