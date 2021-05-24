@@ -20,4 +20,11 @@ if(num2 - 3 == num1)
     alert("Incrementar en 1 unidad el valor de num1 lo hace mayor que num2");
 }
 */
+/*Ejercicio 2.- Crear un Array que contenga al menos 3 nombres de frutas y utilizar el bucle for in
+para recórrelo y mostrar dichos valores con la función console.log*/
+var Arreglo = [ "banana", "manzana", "pera" ,"anana"];
+for(var element of Arreglo) 
+{
+    console.log(element);
+}
 
