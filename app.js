@@ -52,3 +52,14 @@ console.log(Arreglo);
 var Arreglo = [ "banana", "manzana", "pera" ,"anana"];
 Arreglo.reverse();
 console.log(Arreglo);
+
+/*e.- Recorrer el array utilizando el bucle while (usar la propiedad length del array
+en la condición) y guardar los valores en una variable del tipo string
+concatenandolos. Mostrar el valor de la variable al final. */
+var Arreglo = [ "River", "Boca", "Racing" ,"San Lorenzo"];
+var i = 0;
+while(i < Arreglo.length )
+{
+console.log(Arreglo[i]);
+i++;
+} 
