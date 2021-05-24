@@ -41,3 +41,9 @@ Arreglo.unshift('Inicio');
 Arreglo.push('Fin');
 console.log(Arreglo);
 
+/*c.- Eliminar un elemento al final y al principio del arreglo (métodos pop y
+shift). */  
+var Arreglo = [ "banana", "manzana", "pera" ,"anana"];
+Arreglo.shift();
+Arreglo.pop();
+console.log(Arreglo);
