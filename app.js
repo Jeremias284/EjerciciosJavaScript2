@@ -83,3 +83,10 @@ var palabraNueva;
 var palabra = 'La Manzana es Verde';
 palabraNueva = palabra.substring(0,5);
 console.log(palabraNueva);
+
+/* c.- Obtener los caracteres 3, 4 y 5 del string (método substring).*/
+var palabraNueva;
+var palabra = 'La Manzana es Verde';
+palabraNueva = palabra.substring(3,6);
+console.log(palabraNueva);
+
