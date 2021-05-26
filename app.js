@@ -128,3 +128,16 @@ function contarVocales(texto) {
 
 }
 console.log(contarVocales('Hola'));
+
+/*Ejercicio 8.- Dado el siguiente código determinar qué valores poseerán las variables 
+miNumero y miArray al final del script.*/
+
+function miFuncion(unNumero, unArray){
+    ++unNumero;
+    unArray.pop();
+    }
+    var miNumero = 15;
+    var miArray = ['Un texto', true, 4, 5];
+    miFuncion(miNumero, miArray) 
+//miArray : ['Un texto', true, 4]
+//miNumero: 16
